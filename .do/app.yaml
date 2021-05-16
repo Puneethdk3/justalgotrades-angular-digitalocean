@@ -1,0 +1,8 @@
+name: angular
+static_sites:
+- environment_slug: html
+  github:
+    branch: master
+    deploy_on_push: true
+    repo: digitalocean/angular
+  name: angular

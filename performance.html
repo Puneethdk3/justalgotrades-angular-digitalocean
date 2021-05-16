@@ -1,0 +1,412 @@
+<html>
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-LM336N7R42"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-LM336N7R42');
+        </script>
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-183137015-1">
+        </script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-183137015-1');
+        </script>
+        <link rel="icon" href="../images/2.png" type="image/icon type" >
+
+
+        
+        <title>JustAlgoTrades For Better Return On Investment</title>
+        <meta name="title" content="Deployment of intraday trading strategies using Algo trading platform to provide better returns | JustAlgoTrades"/>
+        <meta name="description" content="Deploy of intraday trading strategies using algorithmic trading platform to provide better returns. We make use of API tarding for better execution of trades"/>
+        <meta name="keywords" content="online trading,stock trading,algorithmic trading,algo trading,trading platform,trading strategy,online
+        stock      trading,share
+        trading,online share trading,stock market trading,online share market,online investing,backtesting software,algorithmic trading india">
+
+
+
+        <link rel="stylesheet" type="text/css" href="assets/dist/jquery.CalendarHeatmap.css">
+        <link rel="stylesheet" type="text/css" href="assets/dist/styles.css">
+        <link rel="stylesheet" type="text/css" href="assets/dist/menu.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <style type="text/css">
+        body {
+            font-family:Arial, Helvetica, sans-serif;
+            color: #333;
+        } 
+        h3 {
+            font-size: 18px;
+        }
+        </style>
+        <script>
+            /* try {
+              var xhr = new XMLHttpRequest();
+              xhr.open("GET", "https://api.ipify.org/?format=json", false);
+              xhr.send();
+              var res = JSON.parse(xhr.response);
+      
+              xhr.open("GET", "https://pro.justalgotrades.com/api/track/"+res.ip+"/page/performance", false);
+              xhr.send();
+            } catch (error) {
+              
+            } */
+        </script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+        <script src="assets/dist/jquery.CalendarHeatmap.js"></script>
+        <script src="assets/dist/strategy-performance.js"></script>
+        <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+        <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+        <script>
+        $(document).ready(function () { 
+      $('#dtBasicExample').DataTable();
+      $('.dataTables_length').addClass('bs-select');
+    });</script>
+    </head>
+    <script>
+
+        function randomDate(start, end) {
+			var date = new Date(+start + Math.random() * (end - start));
+			return moment(date).format('YYYY-MM-DD');
+		}
+
+		
+    </script>
+    <body onload="init()">
+        
+
+        <!-- this will show our spinner -->
+        <div hidden id="spinner"></div>
+
+        <header
+        class="site-navbar py-4 js-sticky-header site-navbar-target"
+        role="banner"
+      >
+        <div class="container">
+          <div class="row align-items-center">
+            <table>
+              <tr>
+                <td>
+                  <a href="https://www.justalgotrades.com" class="text-black h4 mb-0"
+                  ><b style="font-family: Georgia, 'Times New Roman', Times, serif;">
+                      
+                      <!-- <span style="color: darkblue;">Algo</span><span style="color:royalblue;">Wealth</span><span class="text-primary"></span></b> -->
+
+                      <img src="images/justalgotrades_white.png" alt="JustAlgoTrades Logo" style="width: 250px;"/>
+                    </b>
+
+                  </a>
+                </td>
+                <td style="width: 1000px;">
+                  <nav
+                  class="site-navigation position-relative text-right"
+                  role="navigation"
+                >
+                  <ul
+                    class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block ml-0 pl-0"
+                  > 
+                    <li><a href="https://www.justalgotrades.com" class="nav-link">Home</a></li>
+                    <li>
+                      <a href="https://www.justalgotrades.com#features-section" class="nav-link">Features</a>
+                    </li>
+                    <li>
+                      <a href="https://www.justalgotrades.com#about-section" class="nav-link">About Us</a>
+                    </li>
+                    <li>
+                      <a href="https://www.justalgotrades.com#generic_price_table" class="nav-link">Pricing</a>
+                    </li>
+                    <li>
+                      <a href="https://www.justalgotrades.com#faq-section" class="nav-link">FAQs</a>
+                    </li>
+                    <!-- <li><a href="#blog-section" class="nav-link">Blog</a></li> -->
+                   
+                    <li>
+                      <a href="/register"  class="nav-link">Register</a>
+                    </li>
+                    <li>
+                      <a href="/login"  class="nav-link">Login</a>
+                    </li>
+  
+                  </ul>
+                </nav> 
+                </td>
+                <td>
+                  <div class="col-6 col-md-9 d-inline-block d-lg-none ml-md-0" style="padding-right:0;">
+                    <a
+                      href="#"
+                      class="site-menu-toggle js-menu-toggle text-black float-right"
+                      ><span class="icon-menu h3"></span
+                    ></a>
+                  </div>
+                </td>
+              </tr>
+            </table>
+
+          </div>
+        </div>
+      </header> 
+
+
+    <div style="overflow-y: scroll;" id = "strategy-performance" name = "strategy-performance" style="display: none">  
+        
+        <div class="frame" style="height: 2000px;"> 
+            
+            <div class="card" style="border: none; padding-top: 10px;">
+                <div class="limiter">
+                    <div class="container-table101">
+                        <div class="wrap-table100">
+                            <div class="table100 ver1 m-b-110" style="border-top-left-radius: 30px; border-top-right-radius:30px; border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;">
+                <div class="table100-head">
+                    <table>
+                        <thead>
+                            <tr class="row100 head">
+                                <th class="cell100 column1" colspan="5">STRATEGY PERFORMANCE</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+                
+                <div class="card" style="margin-top: 0px;">
+                    <div class="card-body" style="background-color: aliceblue;">
+                        <form method="GET">
+                            <table>
+                                <tr>
+                                    <td colspan="6"><label for="formControlRange">Initial capital</label></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="w-60">
+                                            
+                                            <input type="range" class="form-control-range" id="customRange" min="10000" max="1000000">
+                                            
+                                        </div> </td>
+                                        <td><span class="font-weight-bold text-primary ml-2 valueSpan"></span></td>
+                                    <td style="width: 20px;padding-left: 5px;padding-right: 5px;">
+                                        <select class="ui dropdown" id = "leverage" hidden>
+                                            <option value="">Leverage</option>
+                                            <option value="1">1x</option>
+                                            <option value="2">2x</option>
+                                            <option value="3">3x</option>
+                                            <option value="4">4x</option>
+                                            <option value="5">5x</option>
+                                            <option value="6">6x</option> 
+                                            <option value="7" selected>7x</option>
+                                            <option value="8">8x</option>
+                                            <option value="9">9x</option>
+                                            <option value="10">10x</option>
+                                        </select>
+                                    </td>
+                                    <td style="width: 20px;padding-left: 5px;padding-right: 5px;">
+                                        <select class="ui dropdown" id = "profitType" hidden>
+                                            <option value="cumulative">Cumulative</option>
+                                            <option value="noncumulative">Non Cumulative</option>
+                                        </select>
+                                    </td>
+                                    <td style="width: 20px;padding-left: 5px;padding-right: 5px;">
+                                        <!-- <select class="ui dropdown" id = "startYear">
+                                            <option value="">Start Year</option>
+                                            <option value="2015">2015</option>
+                                            <option value="2016">2016</option>
+                                            <option value="2017">2017</option>
+                                            <option value="2018">2018</option>
+                                            <option value="2019">2019</option>
+                                            <option value="2020">2020</option>
+                                        </select> -->
+                                    </td>
+                                    <td style="width: 20px;padding-left: 5px;padding-right: 5px;">
+                                        <button type="button" onclick="reloadPage()" class="btn btn-primary active">Apply</button>
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                    </div>
+                </div>
+                <div hidden id="spinner"></div>
+                <div style="margin-top: 15px;">
+                    
+                    <p style="padding-bottom: 10px;">Note: Profit is calculated after deducting brokerage charges and minimum slippage is also considered.</p>
+                    
+                    
+                </div> 
+                <div style="margin-top: 10px;">
+                    <table>
+                        <tr>
+                            <td>
+                                <div>
+                                    <b>Year</b>
+                                </div> </td>
+                            <td style="width: 110px;padding-right: 10px;"><span><b>Final capital</b></span></td>
+                            <td style="width: 110px;"><span><b>Yearly returns</b></span></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div style="margin-top: 10px;">
+                    <table>
+                        <tr>
+                            <td colspan="3"><label for="formControlRange">2021</label></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="w-80">
+                                    <input type="range" disabled class="form-control-range" id="customRange7" min="10000" max="5000000">
+                                </div> </td>
+                            <td style="width: 110px;padding-right: 10px;"><span class="font-weight-bold text-primary ml-2 valueSpan7"></span></td>
+                            <td style="width: 110px;"><span class="profitPerc7">33%</span></td>
+                        </tr>
+                    </table>
+                </div>
+                <div style="margin-top: 10px;">
+                    <table>
+                        <tr>
+                            <td colspan="3"><label for="formControlRange">2020</label></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="w-80">
+                                    <input type="range" disabled class="form-control-range" id="customRange6" min="10000" max="5000000">
+                                </div> </td>
+                            <td style="width: 110px;padding-right: 10px;"><span class="font-weight-bold text-primary ml-2 valueSpan6"></span></td>
+                            <td style="width: 110px;"><span class="profitPerc6">33%</span></td>
+                        </tr>
+                    </table>
+                </div>
+                <div style="margin-top: 0px;">
+                    <table>
+                        <tr>
+                            <td colspan="3"><label for="formControlRange">2019</label></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="w-80">
+                                    <input type="range" disabled class="form-control-range" id="customRange5" min="10000" max="5000000">
+                                </div> </td>
+                            <td style="width: 110px;padding-right: 10px;"><span class="font-weight-bold text-primary ml-2 valueSpan5"></span></td>
+                            <td style="width: 110px;"><span class="profitPerc5">33%</span></td>
+                        </tr>
+                    </table>
+                </div>
+                <div style="margin-top: 0px;">
+                    <table>
+                        <tr>
+                            <td colspan="3"><label for="formControlRange">2018</label></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="w-80">
+                                    <input type="range" disabled class="form-control-range" id="customRange4" min="10000" max="5000000">
+                                </div> </td>
+                            <td style="width: 110px;padding-right: 10px;"><span class="font-weight-bold text-primary ml-2 valueSpan4"></span></td>
+                            <td style="width: 110px;"><span class="profitPerc4">33%</span></td>
+                        </tr>
+                    </table>
+                </div>
+                <div style="margin-top: 0px;">
+                    <table>
+                        <tr>
+                            <td colspan="3"><label for="formControlRange">2017</label></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="w-80">
+                                    <input type="range" disabled class="form-control-range" id="customRange3" min="10000" max="5000000">
+                                </div> </td>
+                            <td style="width: 110px;padding-right: 10px;"><span class="font-weight-bold text-primary ml-2 valueSpan3"></span></td>
+                            <td style="width: 110px;"><span class="profitPerc3">33%</span></td>
+                        </tr>
+                    </table>
+                </div>
+                <div style="margin-top: 0px;">
+                    <table>
+                        <tr>
+                            <td colspan="3"><label for="formControlRange">2016</label></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="w-80">
+                                    <input type="range" disabled class="form-control-range" id="customRange2" min="10000" max="5000000">
+                                </div> </td>
+                            <td style="width: 110px;padding-right: 10px;"><span class="font-weight-bold text-primary ml-2 valueSpan2"></span></td>
+                            <td style="width: 110px;"><span class="profitPerc2">33%</span></td>
+                        </tr>
+                    </table>
+                </div>
+                <div style="margin-top: 0px;">
+                    <table>
+                        <tr>
+                            <td colspan="3"><label for="formControlRange">2015</label></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="w-80">
+                                    <input type="range" disabled class="form-control-range" id="customRange1" min="10000" max="5000000">
+                                </div> </td>
+                            <td style="width: 110px;padding-right: 10px;"><span class="font-weight-bold text-primary ml-2 valueSpan1"></span></td>
+                            <td style="width: 110px;"><span class="profitPerc1">33%</span></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="card-body">
+                    <div class="row my-test" style="background-color: aliceblue;">
+                        <div class="col">
+                            <div id="heatmap-7"></div>
+                        </div>
+                    </div>
+                    <div class="row my-test" style="background-color: aliceblue;">
+                        <div class="col">
+                            <div id="heatmap-6"></div>
+                        </div>
+                    </div>
+                    <div class="row my-test" style="background-color: aliceblue">
+                        <div class="col">
+                            <div id="heatmap-5"></div>
+                        </div>
+                    </div>
+                    <div class="row my-test" style="background-color: aliceblue;">
+                        <div class="col">
+                            <div id="heatmap-4"></div>
+                        </div>
+                    </div>
+                    <div class="row my-test" style="background-color: aliceblue">
+                        <div class="col">
+                            <div id="heatmap-3"></div>
+                        </div>
+                    </div>
+                    <div class="row my-test" style="background-color: aliceblue;">
+                        <div class="col">
+                            <div id="heatmap-2"></div>
+                        </div>
+                    </div>
+                    <div class="row my-test" style="background-color: aliceblue">
+                        <div class="col">
+                            <div id="heatmap-1"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+                <!-- </div>
+            </div>
+        </div> -->
+    </div>
+    </body>
+</html>

@@ -1,0 +1,171 @@
+
+/* Horizontal line */
+.collapsible-link::before {
+    content: '';
+    width: 14px;
+    height: 2px;
+    background: #333;
+    position: absolute;
+    top: calc(50% - 1px);
+    right: 1rem;
+    display: block;
+    transition: all 0.3s;
+  }
+  
+  /* Vertical line */
+  .collapsible-link::after {
+    content: '';
+    width: 2px;
+    height: 14px;
+    background: #333;
+    position: absolute;
+    top: calc(50% - 7px);
+    right: calc(1rem + 6px);
+    display: block;
+    transition: all 0.3s;
+  }
+  
+  .collapsible-link[aria-expanded='true']::after {
+    transform: rotate(90deg) translateX(-1px);
+  }
+  
+  .collapsible-link[aria-expanded='true']::before {
+    transform: rotate(180deg);
+  }
+  
+
+
+
+
+
+
+
+
+.small-header .logo {
+  padding: 10px 0;
+}
+.inner_menu {
+  position: relative;
+}
+.small-header .sub-menu{
+  top: 42px;
+} 
+.text-center {
+  text-align: center;
+}
+/*page css*/
+#nk-content {
+  padding-top: 100px;
+}
+.frame{
+  padding: 40px 0;
+}
+.fl-bx {
+  display: flex;
+  flex-flow: row wrap;
+}
+.fl-jst-center {
+  justify-content: center;
+}
+.fl-aln-center {
+  align-items: center;
+}
+.w-50 {
+  width: 50%;
+  padding: 10px;
+}
+.imageBlock {
+  padding: 0 50px;
+}
+.w-100 {
+  width: 100%;
+}
+.bg-grey{
+  background-color: #f3f3f5;
+}
+.AccWrap {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.AccHdr {
+  position: relative;
+  padding: 10px 80px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  height: 90px;
+  border-radius: 5px;
+}
+.AccCont {
+  display: none;
+  padding: 20px 80px;
+}
+.AccHdr::before {
+  content: '';
+  display: block;
+  width: 15px;
+  height: 100%;
+  background-color: #008beb;
+  position: absolute;
+  left: 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+.AccHdr::after {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 30px;
+  background-image: url(../images/plus.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+.AccHdr.clicked::after {
+  transform: rotate(90deg);
+}
+  .small-header .menu-wrapper {
+      margin-top: 56px;
+  } 
+
+
+ 
+
+  .algotrading_algobannerhed { 
+    margin: 0 0 12px; padding: 0; font-family: 'montserratbold';  color: #0b3a7e; line-height: 43px; font-weight: bold; font-size: 45px;}
+  
+  
+    .payment-method-label{ 
+      font-size: 12px;
+      font-weight: 400;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing:.2px;
+      color: #5f7082;
+      padding: 5px 0;
+      background-color: black;
+    }
+    .payment-method-image{ 
+      
+      width: 55px;
+      height: 35px;
+      object-fit: contain;
+      object-position: center;
+      margin-bottom: 0;
+      background-color: white;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      border-bottom-left-radius: 8px;
+      border-bottom-right-radius: 8px;
+    }
+
+

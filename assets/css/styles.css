@@ -1,0 +1,76 @@
+.notepara{
+    font-size: 0.8rem;
+    height: 5px;
+    padding-top: 2px;
+}
+
+.notepara-multipleline{
+    font-size: 0.8rem;
+    height: 20px;
+    padding-bottom: 5px;
+}
+
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .custom-terms{
+    padding-left: 2.6em;
+  }
+
+  .doEKrx{
+    font-size: 14px;
+    font-family: monospace;
+    font-weight:400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: rgb(226, 33, 52)
+  }
+  .doEKrx-green{
+    font-size: 14px;
+    font-weight:400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: green
+  }
+
+  .bYifJZ{
+    font-size:14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    -webkit-box-align: center;
+    align-items: center;
+    font-weight: 700;
+  }
+
+
+
+.checkmark {
+  display: inline-block;
+  transform: rotate(45deg);
+  height: 25px;
+  width: 12px;
+  margin-left: 60%; 
+  border-bottom: 7px solid #78b13f;
+  border-right: 7px solid #78b13f;
+}
